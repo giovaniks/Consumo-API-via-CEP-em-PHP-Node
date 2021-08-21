@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Vtrina | Busca de CEP's - PHP</title>
+        <meta name="description" content="Pesquisa de CEP consumindo a API do viacep.com.br">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/vtrina.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script type="module" src="js/main.js"></script>
+    </head>
+    <body class="vtrinaBackground">
+    <section class="menuBuscaCep">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-gradient shadow shadow-lg border">
+    <div class="container-fluid">
+        <a href="../">
+        <img class="img-responsive" src="images/vtrina-logo.png" alt="Vtrina Logo"/>
+        </a>
+    </div>
+    </nav>
+    </section>
+
+
+    <section class="conteudoHome">
+        <div class="mx-auto text-center w-50 shadow shadow-lg" style="margin-top:30px;">
+            <div class="buscarInfos card">
+            <div class="loadInfos vtrinaCardBg card-body">
+                <h5 class="card-title vtrinaTextMenu">Código de Endereçamento Postal</h5>
+                <p class="vtrinaText">Verifique informaçoes referentes ao CEP desejado, basta digitar o CEP e acionar o botão de busca!</p>
+                <div class="mx-auto input-group input-group-lg w-50">
+                <input type="number" class="cepValue form-control" aria-label="buscaCep" aria-describedby="buscaCep" placeholder="Informe o CEP..." style="font-size:14px;">
+                <button class="searchCep btn btn-primary text-light fw-bold" style="text-shadow: 1px 1px black; font-size:14px;">
+                 Buscar
+                </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script type="module" src="js/cep_informations.js"></script>
+    <section class="footerBuscaCep">
+    <footer>
+        <div class="bg-light vtrinaText fw-bold shadow shadow-lg mx-auto text-center w-100 fixed-bottom">
+            <p>Consulta CEP's - Avaliação Vtrina</p>
+        </div>
+    </footer>
+    </section>
+    </body>
+    </html>

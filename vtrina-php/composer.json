@@ -1,0 +1,14 @@
+{
+    "name": "giovaniks/vtrina-php",
+    "description": "Pesquisa de CEP consumindo a API do viacep.com.br",
+    "type": "project",
+    "require": {
+        "pecee/simple-router": "4.3.7.2"
+    },
+    "authors": [
+        {
+            "name": "Giovani Patrick",
+            "email": "giovani@spacecom.com.br"
+        }
+    ]
+}

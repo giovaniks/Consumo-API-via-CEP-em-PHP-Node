@@ -1,0 +1,36 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 60px;
+}
+
+.vtrinaTextMenu{
+    font-family: Verdana, Tahoma, sans-serif, Arial;
+    font-size: 13px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.vtrinaBackground{
+    background: #FEAC5E;  
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); 
+    
+}
+
+.vtrinaText{
+    font-family: Arial;
+    font-size:13px;
+    font-weight: normal;
+    color: #000;
+
+}
+
+.vtrinaCardBg{
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+    
+}
